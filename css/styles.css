@@ -5,6 +5,12 @@ body {
   padding-top: 80px; /* Compensar el navbar fijo */
 }
 
+h1{
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
 section {
   padding-top: 2rem;
 }
