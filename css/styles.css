@@ -1,6 +1,6 @@
 body {
-  background: radial-gradient( #15399a, #b5c8d7);
-  color: #fff;
+  background: radial-gradient( #5a59b7, #c8a9fa);
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
   padding-top: 80px; /* Compensar el navbar fijo */
 }
@@ -9,6 +9,8 @@ h1{
   letter-spacing: 0.2rem;
   font-weight: bold;
   padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 section {
@@ -38,7 +40,7 @@ section {
 /* Botón personalizado de Uiverse */
 /* From Uiverse.io by cssbuttons-io */ 
 button {
-  --color: #e0c58f;
+  --color: #57d1e9ef;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -68,7 +70,7 @@ button {
 }
 
 .boton2:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .boton2:before {
@@ -115,7 +117,7 @@ button {
 
 /* Navbar con scroll */
 .navbar.scrolled {
-  background-color: #2c3e51 !important;
+  background-color: #ae8ff4 !important;
 }
 
 .navbar.scrolled .nav-link,
