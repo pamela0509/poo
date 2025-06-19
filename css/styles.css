@@ -1,44 +1,88 @@
+/* GENERAL */
 body {
-  background: radial-gradient( #5a59b7, #c8a9fa);
+  background: radial-gradient(#5a59b7, #c8a9fa);
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   padding-top: 80px; /* Compensar el navbar fijo */
 }
 
-h1{
+h1 {
   letter-spacing: 0.2rem;
   font-weight: bold;
   padding: 1rem;
   font-family: "Montserrat", sans-serif;
-
 }
 
 section {
   padding-top: 2rem;
 }
 
-/* Centrar vertical y horizontalmente el contenido dentro de .inicio */
+/* NAVBAR */
+.navbar {
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar.scrolled {
+  background-color: #ae8ff4 !important;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .navbar-brand {
+  color: #fff !important;
+}
+
+.btn-inicio {
+  color: #ffffff;
+  background-color: #DBECF4;
+  border: 1px solid #DBECF4;
+  background: transparent;
+}
+
+.btn-inicio:hover {
+  color: #000000;
+  background-color: #cfe4ee;
+  border-color: #cfe4ee;
+}
+
+.btn-registro {
+  color: #ffffff;
+  background-color: #DBECF4;
+  border: 1px solid #DBECF4;
+  background: transparent;
+}
+
+.btn-registro:hover {
+  color: #000000;
+  background-color: #cfe4ee;
+  border-color: #cfe4ee;
+}
+
+/* INICIO - Sección principal */
 .inicio {
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* Centrado vertical */
-  align-items: center;      /* Centrado horizontal */
-  height: 100%;            
-  min-height: 90vh;        /* Ocupa toda la altura de la ventana */
-  text-align: center;       /* Centra el texto de h1 y p */
-}   
-
-/* Contenedor de botones: espaciado y centrado horizontal */
-.inicio > div {
-  display: flex;
-  gap: 5rem;                /* Espacio entre botones */
-  justify-content: center; /* Centrado horizontal */
-  margin-top: 1rem;         /* Espacio con respecto al texto */
-  flex-wrap: wrap;          /* Adaptación a pantallas pequeñas */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 90vh;
+  text-align: center;
 }
 
-/* Botón personalizado de Uiverse */
-/* From Uiverse.io by cssbuttons-io */ 
+.inicio > div {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+/* BOTONES PERSONALIZADOS */
 button {
   --color: #57d1e9ef;
   font-family: inherit;
@@ -67,16 +111,13 @@ button {
   height: 150px;
   width: 200px;
   border-radius: 50%;
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
 }
 
 .boton2:hover {
   color: #000000;
-}
-
-.boton2:before {
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
 }
 
 .boton2:hover:before {
@@ -89,71 +130,38 @@ button {
   transition: background 0s;
 }
 
-
-.btn-contacto {
-  color: #ffffff;
-  background-color: #DBECF4;
-  border: 1px solid #DBECF4;
-  background: transparent
+/* IMAGEN FLOTANTE */
+.img-fluid {
+  height: 100%;
+  width: auto;
 }
 
-.btn-contacto:hover {
-  color: #000000;
-  background-color: #cfe4ee;
-  border-color: #cfe4ee;
-}
-
-
-/* Navbar base */
-.navbar {
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar .nav-link,
-.navbar .navbar-brand {
-  color: #fff !important;
-}
-
-/* Navbar con scroll */
-.navbar.scrolled {
-  background-color: #ae8ff4 !important;
-}
-
-.navbar.scrolled .nav-link,
-.navbar.scrolled .navbar-brand {
-  color: #fff !important;
-}
-
-
-
-.tarjetas{
-  width: 18rem;
-  text-align: center;
-}
-
-
-
-.tc{
+/* SECCIÓN: Cursos Tech Work (misión, visión, valores) */
+.tc {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
   padding: 0.5rem;
 }
-.glass-effect{
-  background: rgba(255,255,255,0.1);
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.1);
-  box-shadow: 0 8px 32px rgba (rgba(0, 0, 0, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   color: white;
 }
 
-  .glass-effect .bi {
-    font-size: 2.5rem; /* Tamaño grande del ícono */
-  }
+.glass-effect .bi {
+  font-size: 2.5rem;
+}
 
-.img-fluid{
-    height: 100%;
-    width: auto;
-  }
+/* CURSOS DESTACADOS */
+.tarjetas {
+  width: 18rem;
+  text-align: center;
+}
+
+/* FOOTER - sin estilo específico, pero lo puedes agregar si lo necesitas */
+
