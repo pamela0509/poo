@@ -158,6 +158,24 @@ button {
 }
 
 /* CURSOS DESTACADOS */
+.parallax-container{
+background-image: url(../img/WhatsApp\ Image\ 2025-05-27\ at\ 09.45.32\ \(2\).jpeg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/*Tamaño del contenedor*/
+height: 50vh;
+width: 100%;
+/*Para asegurarse de que el contenido*/
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+text-align: center;
+position: relative;
+z-index: 1;
+}
 .tarjetas {
   width: 18rem;
   text-align: center;
