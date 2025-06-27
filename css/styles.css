@@ -54,12 +54,7 @@ section {
 .navbar.scrolled .navbar-brand {
   color: #fff !important;
 }
-.logo-avatar {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-}
+
 /*BOTONES NAVBAR*/
 .btn-inicio {
   color: #ffffff;
