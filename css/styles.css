@@ -6,11 +6,29 @@ body {
   padding-top: 80px; /* Compensar el navbar fijo */
 }
 
+/* FUENTES */
+@font-face {
+  font-family: 'Mevara';
+  src: url('./fonts/MevaraTrial-Regular.otf') format('opentype');
+}
+
+
 h1 {
   letter-spacing: 0.2rem;
   font-weight: bold;
   padding: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Mevara', sans-serif;
+}
+
+h2{
+  padding: 1.5rem;
+  color: #ff0000;
+}
+
+h3{
+  padding: 1.5rem;
+  color: #3a0ca3;
+  letter-spacing: 0.1rem;
 }
 
 section {
@@ -36,7 +54,13 @@ section {
 .navbar.scrolled .navbar-brand {
   color: #fff !important;
 }
-
+.logo-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/*BOTONES NAVBAR*/
 .btn-inicio {
   color: #ffffff;
   background-color: #DBECF4;
@@ -130,11 +154,6 @@ button {
   transition: background 0s;
 }
 
-/* IMAGEN FLOTANTE */
-.img-fluid {
-  height: 100%;
-  width: auto;
-}
 
 /* SECCIÓN: Cursos Tech Work (misión, visión, valores) */
 .tc {
@@ -165,7 +184,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 /*Tamaño del contenedor*/
-height: 50vh;
+height: 100vh;
 width: 100%;
 /*Para asegurarse de que el contenido*/
 display: flex;
@@ -181,5 +200,13 @@ z-index: 1;
   text-align: center;
 }
 
-/* FOOTER - sin estilo específico, pero lo puedes agregar si lo necesitas */
 
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+}

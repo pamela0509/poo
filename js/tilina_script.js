@@ -33,7 +33,7 @@ class AnimacionFlotante {
       this.posicion += this.direccion;
 
       // Si la posición supera los 15 píxeles o baja de -15, cambiamos de dirección
-      if (this.posicion > 15 || this.posicion < -15) {
+      if (this.posicion > 5 || this.posicion < -5) {
         this.direccion *= -1; // Invierte la dirección
       }
 
