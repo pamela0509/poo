@@ -21,7 +21,10 @@
   <header>
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Cursos Tech Work</a>
+        <a class="navbar-brand d-flex align-items-center" href="./index.html">
+          <img src="./img/logo.png" alt="Logo" class="logo-circular me-2">
+          <span class="brand-text">Cursos Tech Work</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +34,8 @@
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="...">Cursos</a></li>
 
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://app.daily.dev/">Blog</a>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://app.daily.dev/"
+                target="_blank">Blog</a>
             </li>
             <li class="nav-item"><a class="nav-link active" aria-disabled="page" href="./contacto.html">Contacto</a>
             </li>
@@ -60,18 +64,18 @@
             y visualmente atractiva para estudiantes interesados en el aprendizaje digital.</p>
           <div>
             <!--Boton1-->
-            <button class="boton2">
-              Inscribete ahora
+            <!--Boton1-->
+            <button class="btn-registro">
+              Inscríbete ahora
             </button>
             <!--Boton2-->
-            <!-- From Uiverse.io by mrtqzbek11 -->
-            <button class="boton2">
+            <button class="btn-registro">
               Ver cursos
             </button>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 imagen_flotante" data-aos="fade-left">
-          <img id="imagenFlotante" src="./img/bruma2.png" class="img-fluid" alt="">
+          <img id="imagenFlotante" src="./img/bruma_elbueno.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -85,7 +89,7 @@
     </div>
     <section class="row">
       <!--Tarjeta 1-->
-      <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col-lg-4 col-md-4 col-sm-12" data-aos="flip-up">
         <div class="card glass-effect text-center p-4 mb-4 card">
           <div class="card-body">
             <i class="bi bi-mortarboard display-1 mb-3"></i>
@@ -99,7 +103,7 @@
       </div>
       <!--Tarjeta 2-->
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="card glass-effect text-center p-4 mb-4 card">
+        <div class="card glass-effect text-center p-4 mb-4 card" data-aos="flip-up">
           <div class="card-body">
             <i class="bi bi-eye display-1 mb-3"></i>
             <h5 class="card-title  text-center tc">Nuestra Visión</h5>
@@ -111,7 +115,7 @@
       </div>
       <!--Tarjeta 3-->
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="card glass-effect text-center p-4 mb-4 card">
+        <div class="card glass-effect text-center p-4 mb-4 card" data-aos="flip-up">
           <div class="card-body">
             <i class="bi bi-award display-1 mb-3"></i>
             <h5 class="card-title text-center tc">Nuestros Valores</h5>
@@ -123,15 +127,14 @@
     </section>
   </section>
   <!--Finalizan Tarjetas-->
-
   <!--Cursos destacados-->
   <section class="parallax-container">
     <div class="container">
       <div class="row">
         <h3 class="text-left">Cursos destacados</h3>
         <!--Tarjeta 1-->
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="card glass-effect text-center p-4 mb-4 card">
+        <div class="col-lg-4 col-md-4 col-sm-12"data-aos="flip-up">
+          <div class="card glass-effect curso-destacado text-center p-4 mb-4">
             <div class="card-body">
               <img src="./img/WhatsApp Image 2025-05-27 at 09.45.32 (2).jpeg" class="card-img-top" alt="...">
               <h5 class="card-title text-center tc">Desarrollo UI/UX</h5>
@@ -142,8 +145,8 @@
           </div>
         </div>
         <!--Tarjeta 2-->
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="card glass-effect text-center p-4 mb-4 card">
+        <div class="col-lg-4 col-md-4 col-sm-12"data-aos="flip-up">
+          <div class="card glass-effect curso-destacado text-center p-4 mb-4">
             <div class="card-body">
               <img src="./img/WhatsApp Image 2025-05-27 at 09.45.32 (2).jpeg" class="card-img-top" alt="...">
               <h5 class="card-title text-center tc">Primeros pasos de la ciberseguridad</h5>
@@ -153,8 +156,8 @@
           </div>
         </div>
         <!--Tarjeta 3-->
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="card glass-effect text-center p-4 mb-4 card">
+        <div class="col-lg-4 col-md-4 col-sm-12"data-aos="flip-up">
+          <div class="card glass-effect curso-destacado text-center p-4 mb-4">
             <div class="card-body">
               <img src="./img/WhatsApp Image 2025-05-27 at 09.45.32 (2).jpeg" class="card-img-top" alt="...">
               <h5 class="card-title text-center tc">Inteligencia artifical para todos</h5>
@@ -169,7 +172,7 @@
   </section>
   <!--FIN de Cursos destacados-->
   <!--Footer-->
-  <section class="container">
+  <section>
     <footer class="mt-5 p-3 bg-light text-center">
       <p>© 2025 Cursos Tech Work. Todos los derechos reservados.</p>
     </footer>
