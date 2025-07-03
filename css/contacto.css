@@ -1,73 +1,89 @@
-/* Estilos específicos para la página de contacto */
-.contact-info i {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+body {
+    background: radial-gradient(#5a59b7, #c8a9fa);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 80px;
+    /* Compensar el navbar fijo */
 }
 
-.contact-info h5 {
+/*NAVBAR*/
+.navbar {
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar.scrolled {
+    background-color: #ae8ff4 !important;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .navbar-brand {
+    color: #fff !important;
+}
+
+
+
+/*BOTONES NAVBAR*/
+.btn-inicio {
+    color: #ffffff;
+    background-color: #DBECF4;
+    border: 1px solid #DBECF4;
+    background: transparent;
+}
+
+.btn-inicio:hover {
+    color: #000000;
+    background-color: #cfe4ee;
+    border-color: #cfe4ee;
+}
+
+.btn-registro {
+    color: #ffffff;
+    background-color: #DBECF4;
+    border: 1px solid #DBECF4;
+    background: transparent;
+}
+
+.btn-registro:hover {
+    color: #000000;
+    background-color: #cfe4ee;
+    border-color: #cfe4ee;
+}
+
+main.container h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+main.container h5 {
+    margin-top: 20px;
     font-weight: 600;
-    margin-bottom: 0.25rem;
-    color: var(--text-primary);
 }
 
-.contact-info p {
-    color: var(--text-secondary);
-    margin-bottom: 0;
+form .form-control {
+    border-radius: 8px;
 }
 
-/* Estilos para el formulario */
-.form-control {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: white;
-}
-
-.form-control:focus {
-    background-color: rgba(255, 255, 255, 0.15);
-    border-color: rgba(167, 119, 227, 0.5);
-    color: white;
-    box-shadow: 0 0 0 0.25rem rgba(110, 142, 251, 0.25);
-}
-
-.form-control::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-/* Estilos para el mapa */
-.ratio iframe {
-    border-radius: 12px;
+form .btn-primary {
+    background-color: #033f63;
     border: none;
+    border-radius: 8px;
 }
 
-/* Agrega esto a tu archivo styles.css */
-
-/* Color para el título del formulario */
-.form-title {
-    color: #ffffff; /* Blanco - puedes cambiarlo */
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
+form .btn-primary:hover {
+    background-color: #022e4e;
 }
 
-/* Color para las etiquetas del formulario */
-.form-label {
-    color: #ffffff !important; /* Blanco - puedes cambiarlo */
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-/* Color para los placeholders */
-.form-control::placeholder {
-    color: rgba(255, 255, 255, 0.6) !important; /* Blanco semi-transparente - puedes cambiarlo */
-}
-
-/* Color para el texto ingresado en los inputs */
-.form-control {
-    color: #ffffff !important; /* Blanco - puedes cambiarlo */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
 }
