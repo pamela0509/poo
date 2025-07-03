@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+    background-image: url("../img/grainedcircles.png");
+    /* Reemplaza con la ruta de tu imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Asegura que la imagen cubra toda la altura de la ventana */
+    margin: 0;
+    /* Elimina el margen predeterminado del body */
+
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.login-card {
+    max-width: 400px;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
