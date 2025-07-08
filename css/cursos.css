@@ -4,7 +4,7 @@
 :root {
     --primary-gradient: linear-gradient(135deg, #6e8efb, #a777e3);
     /* Gradiente principal */
-    --secondary-gradient: linear-gradient(135deg, #00d2ff, #3a7bd5);
+    --secondary-gradient: linear-gradient(135deg, #c1e1e8, #fff);
     /* Gradiente secundario */
     --accent-gradient: linear-gradient(135deg, #f857a6, #ff5858);
     /* Gradiente de acento */
@@ -278,6 +278,12 @@ main {
     margin-bottom: 2rem;
     box-shadow: var(--glow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top{
+    width: 22rem;
+    height: auto;
+    border-radius: 16px;
 }
 
 .card:hover {
