@@ -256,7 +256,7 @@ main {
 .card .card-text,
 .card .bi,
 .card .btn {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .card-title {
@@ -270,7 +270,8 @@ main {
 }
 
 .card {
-    background-color: rgb(43, 48, 110);
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 2rem;
