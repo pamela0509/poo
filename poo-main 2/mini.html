@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minijuegos con Python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/mini.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                    <img src="./img/logo.png" alt="Logo" class="logo-circular me-2">
+                    <span class="brand-text">Cursos Tech Work</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="https://app.daily.dev/"
+                                target="_blank">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-registro" type="submit">Registrarse</button>
+                    </form>
+                    <form class="d-flex">
+                        <button class="btn btn-inicio" type="button" onclick="window.location.href='login.html'">Iniciar
+                            Sesión</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Inicia contenido-->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="mini">
+                    <div class="col-12 text-center" data-aos="fade-right">
+                        <h1 class="titulomini">Minijuegos con Python</h1>
+                        <hr class="linea-blanca mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cursos -->
+    <section class="container">
+        <section class="row d-flex align-items-stretch">
+            <!--Tarjeta única centrada y ancha-->
+            <div class="col-12 d-flex justify-content-center" data-aos="fade-up">
+                <div class="card glass-effect text-center p-4 mb-4 w-100 tarjeta-uiux">
+                    <div class="card-body">
+                        <p class="card-text text-start">
+                            <strong>¿De qué trata este curso?</strong><br>
+                            Aprende a programar de forma divertida creando minijuegos clásicos con Python. Desde juegos de consola simples hasta proyectos gráficos básicos con Pygame, este curso te guiará paso a paso en el desarrollo de juegos mientras aprendes fundamentos de programación.
+                            <br><br>
+                            <strong>Contenido del curso:</strong><br>
+                            • Semana 1: Introducción a Python para juegos (instalación, sintaxis básica)<br>
+                            • Semana 2: Juegos de texto (adivinanzas, ahorcado, trivia)<br>
+                            • Semana 3: Introducción a Pygame (configuración y conceptos básicos)<br>
+                            • Semana 4: Creación de Pong (gráficos simples y colisiones)<br>
+                            • Semana 5: Juego de laberinto (movimiento, obstáculos y objetivos)
+                            <br><br>
+                            <strong>¿A quién va dirigido?</strong><br>
+                            A principiantes en programación que quieran aprender de forma práctica, estudiantes que buscan reforzar sus conocimientos de Python, profesores que deseen material didáctico, o cualquier persona interesada en el desarrollo de juegos simples.
+                            <br><br>
+                            <strong>Requisitos:</strong><br>
+                            • Computadora con Windows, Mac o Linux<br>
+                            • No se requieren conocimientos previos de programación<br>
+                            • Ganas de aprender y divertirse creando juegos
+                            <br><br>
+                            <strong>Beneficios adicionales:</strong><br>
+                            • Acceso a código fuente de todos los juegos<br>
+                            • Guía de recursos para seguir aprendiendo<br>
+                            • Comunidad de estudiantes para compartir proyectos<br>
+                            • Certificado al completar el curso
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">+ Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-5 p-3 bg-light text-center footer-negro">
+        <p>© 2025 Cursos Tech Work. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
